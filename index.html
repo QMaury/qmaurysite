@@ -1,39 +1,83 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <title>QMaury.com</title>
-  <link href="themecss.css" rel="stylesheet" type="text/css" media="all">
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
   <link rel="icon" type="image/png" href="images/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-	a:link {color:#10ff00;
-	}
-	a:visited {color:#10ff00;
-	}
-	a:active {color:#10ff00;
-	}
-	a:hover {color:#aaaaaa;}
-	a {text-decoration:none}
-
-	body{
-		color:#10ff00;
-		margin:1em auto;
-		max-width:40em;
-		padding:0 .62em;
-		font:1.2em/1.62 sans-serif;
-	}
-	h1,h2,h3 {
-		line-height:1.2;
-	}
-	@media print{
-		body{
-			max-width:none
-		}
-	}
 </style>
+<SCRIPT LANGUAGE="JavaScript">
+var theImages = new Array()
+
+//Random-loading images
+theImages[0] = 'images/banners/1.png'
+theImages[1] = 'images/banners/2.png'
+theImages[2] = 'images/banners/3.png'
+theImages[3] = 'images/banners/4.png'
+theImages[4] = 'images/banners/5.png'
+theImages[5] = 'images/banners/6.png'
+theImages[6] = 'images/banners/7.png'
+theImages[7] = 'images/banners/8.png'
+theImages[8] = 'images/banners/9.png'
+
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+
+for (i = 0; i < p; i++){
+preBuffer[i] = new Image()
+preBuffer[i].src = theImages[i]
+}
+var whichImage = Math.round(Math.random()*(p-1));
+
+function showImage(){
+    if(whichImage==0){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==1){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==2){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==3){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==4){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==5){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==6){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==7){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==8){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+}
+
+</script>
+	</head>
 <body align="center" style="background-color:black;">
+
+<div id="nav">
+	<!--lmao I stole this navigation bar from suckless.org sorry lel-->
+	<ul>
+		<li><a href="index.html"><b>home</b></a></li>
+		<li><a href="coolshit.html">coolshit/</a></li>
+	</ul>
+</div>
+<div>
 	<h1>QMaury.com</h1>
-	<img src="images/alien.gif" height="150" />
+	<div>
+		<script>showImage();</script>
+	</div>
 	<h2>What's up, you niggerlicious fags and retards?</h2>
 	<img src="images/nutsblastedoff.png" height="100" /><br>
 	<p>boy, do I hate risk of pain!! i really wanna just send all risk of rains to mars! "thats a good idea". boy is risk of rain a foul eldritch shit!<br>
@@ -41,6 +85,7 @@
 	about cthulhu and phil hine and C the other day, it was swell. my brain got so laarge that day, that the top of my brain frickin exploded!<br>
 	If you guys stay tuned, your mind will be raped by some nigger-licious content.</p> 
 	<img src="images/born-to-frag.png" height="100" /><br><br>
+</div>
 	<a href="rss.xml" target="_new"><img src="images/rss.png" /></a>
 
 </body>
