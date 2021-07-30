@@ -1,11 +1,15 @@
-
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 	a:link {color:#10ff00;
 	}
 	a:visited {color:#10ff00;
 	}
 	a:active {color:#10ff00;
 	}
-	a:hover {color:#aaaaaa;}
+	a:hover {color:#67ff5c;}
 	a {text-decoration:none}
 
 	body{
