@@ -1,0 +1,57 @@
+var theImages = new Array()
+
+//Random-loading images
+theImages[0] = 'images/banners/1.png'
+theImages[1] = 'images/banners/2.png'
+theImages[2] = 'images/banners/3.png'
+theImages[3] = 'images/banners/4.png'
+theImages[4] = 'images/banners/5.png'
+theImages[5] = 'images/banners/6.png'
+theImages[6] = 'images/banners/7.png'
+theImages[7] = 'images/banners/8.png'
+theImages[8] = 'images/banners/9.png'
+theImages[9] = 'images/banners/10.png'
+
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+
+for (i = 0; i < p; i++){
+preBuffer[i] = new Image()
+preBuffer[i].src = theImages[i]
+}
+var whichImage = Math.round(Math.random()*(p-1));
+
+function showImage(){
+    if(whichImage==0){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==1){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==2){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==3){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==4){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==5){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==6){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==7){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==8){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==9){
+    document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+}
+
