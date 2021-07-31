@@ -5,6 +5,21 @@
 	  <description>where thinking comes to die</description>
 	  <language>en-us</language>
 	  <link>https://qmaury.com/rss.xml</link>
+<item>
+	<title>Where am I??</title>
+	<guid>https://qmaury.com/index.html</guid>
+	<link>https://qmaury.com/index.html</link>
+	<pubDate>7-28-2021</pubDate>
+	<description>
+		<header><h1>Where am I??</h1></header>
+		<main>
+			<p>Welcome to QMaury.com!
+			I am QMaury, this digital home of mine is where I will spill my brain into. I shall rant about the things I like, the things I don't like, and talk about my thoughts and opinions. To get us started, I'm gonna tell you why the software you use everyday is shit.
+			You're probably viewing this website on Google Chrome or Firefox or Microsoft Edge. These are the 3 most popular browsers currently, and they're all shitty CPU-drinking, privacy breaching, brain-numbing, sluggish jew-programs. worse than the privacy problems, the core ideas focus on piling a million different features you'll never use (or need) If you want something faster, simpler, and privacy respecting, install something like Qutebrowser if you like Vim bindings, Ungoogled Chromium if you like something closer to more mainstream browser like Chrome, or Surf if you want a hyper-optimized, ultra-simplistic browser. Each of these have ups and downs, so its all up to personal preferences. Qutebrowser is my personal browser, and I chose it because of it's default use of Vim-bindings, so the mouse isn't needed for anything, but it's set back because it's written in Python, so if your utmost priority is speed, Qute might not be your pick. Ungoogled Chromium is cool because it's literally just Google Chrome, minus all the trackers, privacy breaching shit. Suckless's Surf is incredibly based. it has barely any UI, barebones features, and absolutely no spyware bullshit. The purest web-browser there is.
+				This rant has gone on too long, you could've jacked off or something in the time it took you to read that, and you probably would've had a more fullfilling night. piss off.</p>
+	      </main>
+      </description>
+</item>
 
 	  <item>
 		  <title>What's up, you niggerlicious fags and retards?</title>
