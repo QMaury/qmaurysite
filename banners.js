@@ -1,16 +1,16 @@
 var theImages = new Array()
 
 //Random-loading images
-theImages[0] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/1.png?raw=true'
-theImages[1] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/2.png?raw=true'
-theImages[2] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/3.png?raw=true'
-theImages[3] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/4.png?raw=true'
-theImages[4] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/5.png?raw=true'
-theImages[5] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/6.png?raw=true'
-theImages[6] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/7.png?raw=true'
-theImages[7] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/8.png?raw=true'
-theImages[8] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/9.png?raw=true'
-theImages[9] = 'https://github.com/QMaury/qmaurysite/blob/main/images/banners/10.png?raw=true'
+theImages[0] = 'https://qmaury.com/images/banners/1.png'
+theImages[1] = 'https://qmaury.com/images/banners/2.png'
+theImages[2] = 'https://qmaury.com/images/banners/3.png'
+theImages[3] = 'https://qmaury.com/images/banners/4.png'
+theImages[4] = 'https://qmaury.com/images/banners/5.png'
+theImages[5] = 'https://qmaury.com/images/banners/6.png'
+theImages[6] = 'https://qmaury.com/images/banners/7.png'
+theImages[7] = 'https://qmaury.com/images/banners/8.png'
+theImages[8] = 'https://qmaury.com/images/banners/9.png'
+theImages[9] = 'https://qmaury.com/images/banners/10.png'
 
 var j = 0
 var p = theImages.length;
@@ -54,4 +54,3 @@ function showImage(){
     document.write('<a href ="index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
     }
 }
-
