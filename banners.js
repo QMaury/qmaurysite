@@ -12,6 +12,7 @@ theImages[7] = 'https://qmaury.com/images/banners/8.png'
 theImages[8] = 'https://qmaury.com/images/banners/9.png'
 theImages[9] = 'https://qmaury.com/images/banners/10.png'
 theImages[10] = 'https://qmaury.com/images/banners/11.png'
+theImages[11] = 'https://qmaury.com/images/banners/12.png'
 
 var j = 0
 var p = theImages.length;
@@ -56,5 +57,8 @@ function showImage(){
     }
     else if(whichImage==10){
     document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==11){
+    document.write('<a href ="ttps://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
     }
 }
