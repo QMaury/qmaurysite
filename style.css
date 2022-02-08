@@ -13,11 +13,11 @@ ul.no-bullets {
 	a {text-decoration:none}
 
 	body{
+                margin-top:0em;
 		color:#10ff00;
-        background-color:#000000;
-		margin:1em auto;
-		max-width:40em;
-		padding:0 .62em;
+                background-color:#000000;
+		max-width:60em;
+		padding:0 5.62em;
 		font:1.2em/1.62 sans-serif;
 	}
 	h1,h2,h3 {
@@ -31,10 +31,17 @@ ul.no-bullets {
 	#nav {
 	/*background-color: #fff;*/
 	float: left;
+
 	margin: 0 1px 0 0;
+	border-right: 1px solid #10ff00;
 	padding: 1em 0;
-	border-right: 1px dotted #ccc;
-	width: 200px;
+	width: 170px;
+        clear: left;
+        height: 600px;
+}
+
+p {
+        font-size: 15px;
 }
 
 #nav ul {
@@ -44,12 +51,12 @@ ul.no-bullets {
 
 #nav li {
 	list-style: none;
-	padding: 0;
-	margin: 0;
+	padding: 1;
+	margin: 1;
 }
 
 #nav li ul {
-	padding-left: 0.6em !important;
+	padding-left: 0.3em !important;
 }
 
 #nav li a {

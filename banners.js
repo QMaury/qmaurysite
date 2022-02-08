@@ -13,6 +13,7 @@ theImages[8] = 'https://qmaury.com/images/banners/9.png'
 theImages[9] = 'https://qmaury.com/images/banners/10.png'
 theImages[10] = 'https://qmaury.com/images/banners/11.png'
 theImages[11] = 'https://qmaury.com/images/banners/12.png'
+theImages[12] = 'https://qmaury.com/images/banners/13.jpg'
 
 var j = 0
 var p = theImages.length;
@@ -26,39 +27,42 @@ var whichImage = Math.round(Math.random()*(p-1));
 
 function showImage(){
     if(whichImage==0){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181 alt="QMaury.com" ></a>');
     }
     else if(whichImage==1){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181 alt="QMaury.com" ></a>');
     }
     else if(whichImage==2){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==3){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==4){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==5){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==6){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==7){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==8){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==9){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==10){
-    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==11){
-    document.write('<a href ="ttps://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" border=0 width=452 height=181></a>');
+    document.write('<a href ="ttps://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
+    }
+    else if(whichImage==12){
+    document.write('<a href ="ttps://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
 }
