@@ -3,18 +3,18 @@ ul.no-bullets {
   padding: 0;
   margin: 0;
 }
-	a:link {color:#10ff00;
+	a:link {color:#ff0000;
 	}
-	a:visited {color:#10ff00;
+	a:visited {color:#ff0000;
 	}
-	a:active {color:#10ff00;
+	a:active {color:#ff0000;
 	}
-	a:hover {color:#67ff5c;}
+	a:hover {color:#ed2929;}
 	a {text-decoration:none}
 
 	body{
                 margin-top:0em;
-		color:#10ff00;
+		color:#ff0000;
                 background-color:#000000;
 		max-width:60em;
 		padding:0 5.62em;
