@@ -1,0 +1,84 @@
+/* 
+*  On Effective Web Design and The Education System
+*  Octavio "qms" Maury, March 17, 2022
+*/
+
+  The state of modern web design is a thing that I look upon with disgust.
+It is actually baffling to me how few the amount of people that share this
+opinion is, but put simply, modern web design and the ideology that surro-
+unds it is awful.
+
+/* PART 1: LACK OF SIMPLICITY */
+
+  The way that I design websites -- the way that I designed the website y-
+ou are most likely reading this on right now -- have a very clear vision 
+to be as simple and easy to navigate as possible. No un-needed trackers, 
+no un-needed cookies, no un-needed scripts. No fat. Content and readabili-
+ty first, everything else second.
+
+  This vision for web-design, or lack thereof, is what I think is wrong 
+with the modern web.
+
+  It appears to me that a lot of web designers these days are in it to put
+some pretty pictures on a screen and get money from advertisers. They see
+the word 'design' in the title of 'web-designer' and think of of a graphi-
+cal designer instead of what they should be thinking of, an architectural
+designer. Your job should be to make sure that everything is as readable 
+and easy-to-find as possible. A good web designer does not make his job 
+known. Good web design should be as invisible as possible.
+
+  Perhaps a client will ask for things that sacrifice your vision of simp-
+licity. Perhaps you should put your foot down and tell the client that so-
+mething is a bad idea.
+
+  A good web designer should make a website as easy to navigate as possib-
+le. A great web designer can have a good looking website, with no cost to
+the core vision. 
+
+
+
+/* PART 2: TEACHING OF WEB-DESIGN */
+
+  The issue of teaching web design in a school setting follows closely wi-
+th the issue discussed in the previous section. A lot of people hired for
+teaching positions in web design lack the K.I.S.S* ideology that is oh-so-
+-important for creating a good website.
+
+*Keep It Simple, Stupid!
+
+  The web design teacher of the modern day, while not actively malicious,
+fails to mention the idea that web design should be kept as simple as pos-
+sible.
+
+  This is not the worst thing that they could be doing (as they could be 
+actively teaching against keeping things simple), but it is still not good
+to fail to mention something so crucial to students.
+
+  Another large problem with the entire education system as a whole, is th-
+at for some students, the environment of having a teacher tell you what to
+do with the threat of bad grades, and by extension an unsuccessful life is
+not very conducive to learning and stifles both creativity and morale.
+
+  While web design (and usage of a computer as a whole) is fun to experime-
+nt and play around with, the wrong environment can completely spoil a stud-
+ent's opinion of things. Students should receive guidance to get them going
+at first, but then I think they should just be left to their own devices 
+and revel in the joy of creation. 
+
+  A more broad solution is to just offer more choice and more freedom for 
+students to find what works best for them, as having a teacher breathe down
+their neck truly does work better for some, and should not be taken away c-
+ompletely if it really does help some learn.
+
+
+
+/* PART 3: CONCLUSION (tl;dr) */
+
+  Modern web design should be kept simple and effective. Functionality sho-
+uld always come before aesthetics or monetary gain.
+  
+  The education system should offer more choice to students to create an e-
+nvironment more conducive to learning and creativity.
+
+        - Octavio "qms" Maury, March 17, 2022
+
