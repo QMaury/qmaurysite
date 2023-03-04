@@ -28,18 +28,16 @@ ul.no-bullets {
 			max-width:none
 		}
 	}
-	#nav {
+
+#nav {
 	/*background-color: #fff;*/
 	float: left;
 
 	margin: 0 1px 0 0;
-	border-right: 1px solid #10ff00;
-	padding: 1em 0;
-	width: 170px;
+	width: 350px;
         clear: left;
         height: 600px;
 }
-
 p {
         font-size: 15px;
 }
@@ -64,3 +62,19 @@ p {
 	margin: 0;
 	padding: 0.8ex 2em 0.8ex 1em;
 }
+
+#cdtext {
+	padding-top:2em;
+}
+#cdtext p {
+	margin-top:-4.5em;
+}
+#cdtext h5 {
+	margin-top:-1.5em;
+}
+#cdlink a:link, 
+#cdlink a:visited, 
+#cdlink a:hover { 
+ color: blue; 
+ text-decoration: none; 
+} 
