@@ -60,9 +60,9 @@ function showImage(){
     document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==11){
-    document.write('<a href ="ttps://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
     else if(whichImage==12){
-    document.write('<a href ="ttps://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
+    document.write('<a href ="https://qmaury.com/index.html"><img src="'+theImages[whichImage]+'" alt="QMaury.com" border=0 width=452 height=181></a>');
     }
 }
