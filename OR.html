@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+        <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>QMaury.com</title>
+
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="QMaury.com" />
+        <meta property="og:description" content="Have a seat wherever you like." />
+        <meta property="og:url" content="https://qmaury.com/" />
+        <meta property="og:image" content="https://qmaury.com/images/banners/microbanners/qmauryaffiliatebannertux.gif" />
+
+        <style>
+        </style>
+
+</head>
+<body style="font-size:19px">
+<div>
+
+	<!-- haven't fit this into any part of the website yet, so it's just loose here. Thought it was a fun idea and was easy enuff to make.
+		gonna have this page appear after clicking on an "Operating Room door" link. dunno where i'm gonna put it yet. -->
+
+	<audio autoplay loop>
+		<source src="othr/surgerySong.mp3" type="audio/mpeg">
+	</audio>
+	<h1>meanwhile in the operating room...</h1>
+	<img src="img/surgery2.jpg" height=500 />
+
+
+<button id="playBtn" style="position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); padding: 10px 20px; font-size: 16px; cursor: pointer;">
+	play music
+</button>
+
+<script>
+	const audio = document.getElementById('audio');
+	const playBtn = document.getElementById('playBtn');
+
+	playBtn.addEventListener('click', () => {
+	    if (audio.paused) {
+		audio.play();
+		playBtn.textContent = '⏸️ Pause Music';
+	    } else {
+		audio.pause();
+		playBtn.textContent = '▶️ Play Music';
+	    }
+	});
+</script>
+
+</div>
+<br>
+
+</body>
+</html>
